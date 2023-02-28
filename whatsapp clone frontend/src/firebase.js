@@ -1,12 +1,12 @@
 import firebase from "firebase";
 const firebaseConfig = {
-  apiKey: "AIzaSyCP1voNZP9--ySXfuVQaw4PkaOKu6EE5mw",
-  authDomain: "whatsapp-mern-by-hanan.firebaseapp.com",
-  projectId: "whatsapp-mern-by-hanan",
-  storageBucket: "whatsapp-mern-by-hanan.appspot.com",
-  messagingSenderId: "949377149726",
-  appId: "1:949377149726:web:8c81c18da4a9b211d0f70f",
-  measurementId: "G-BZ3MJ4JCBT",
+  apiKey: "process.env.API",
+  authDomain: "process.env.AUTH_DOMAIN",
+  projectId: "process.env.PROJECT_ID",
+  storageBucket: "process.env.STORAGE_BUKET",
+  messagingSenderId: "process.env.SENDER_ID",
+  appId: "process.env.APP_ID",
+  measurementId: "MEASUREMENTID",
 };
 
 const firebaseApp = firebase.initializeApp(firebaseConfig);
